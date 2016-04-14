@@ -1,7 +1,7 @@
 #include "timerclass.h"
 #include <Arduino.h>
 
-IntervalTimer::IntervalTimer(int intervalMilli) 
+IntervalTimer::IntervalTimer(unsigned int intervalMilli) 
 {
   this->intervalMillis = intervalMilli;
   this->currentMillis = millis();

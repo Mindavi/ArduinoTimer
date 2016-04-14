@@ -1,10 +1,10 @@
 class IntervalTimer {
   private:
-    long currentMillis;
-    long previousMillis;
-    int intervalMillis;
+    unsigned long currentMillis;
+    unsigned long previousMillis;
+    unsigned int intervalMillis;
   public:
-    IntervalTimer(int intervalMilli);
+    IntervalTimer(unsigned int intervalMilli);
     bool timeOver();
     void reset();
 };

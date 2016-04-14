@@ -1,6 +1,6 @@
 # ArduinoTimer
 Library for a timer that can be used in the Arduino IDE
-You can create a timer by initialising it with:
+You can create a timer by initializing it with:
 IntervalTimer timer = IntervalTimer(100);
 Where 100 stands for the time in milliseconds that the timer should be counting.
 
